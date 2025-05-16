@@ -8,59 +8,74 @@
   </head>
   <body>
     <div class="container">
-      <div class="webcamFrame">
-        <div class="PPCounter">
-          <span class="hitContainer">
-            <span class="hitSection">
-              <span id="hit100">0</span>
-              <div class="hitIndicator100"></div>
+      <span class="FrameContainer">
+        <div class="webcamFrame">
+          <div class="PPCounter">
+            <span class="hitContainer">
+              <span class="hitSection">
+                <span id="hit100">0</span>
+                <div class="hitIndicator100"></div>
+              </span>
+              <span class="hitSection">
+                <span id="hit50">0</span>
+                <div class="hitIndicator50"></div>
+              </span>
+              <span class="hitSection">
+                <span id="hit0">0</span>
+                <div class="hitIndicator0"></div>
+              </span>
+              <span class="hitSection">
+                <span id="hitsb">0</span>
+                <div class="hitIndicatorSb"></div>
+              </span>
             </span>
-            <span class="hitSection">
-              <span id="hit50">0</span>
-              <div class="hitIndicator50"></div>
-            </span>
-            <span class="hitSection">
-              <span id="hit0">0</span>
-              <div class="hitIndicator0"></div>
-            </span>
-            <span class="hitSection">
-              <span id="hitsb">0</span>
-              <div class="hitIndicatorSb"></div>
-            </span>
-          </span>
-          <span
-            ><span id="ppValue">0</span
-            ><span style="color: #7db2e8">pp</span></span
-          >
-          <span class="ppIfFc"
-            ><span id="ppIfFc">0</span
-            ><span style="color: #7db2e8">pp</span></span
-          >
-        </div>
-        <div class="webcamFrameRightGlow"></div>
-        <img src="assets/Base Neon.svg" class="webcamFrameGlow" />
-        <img src="assets/Neon BottomLeft.png" class="webcamFrameArrow" />
-        <span class="webcamFrameBadge">
-          <span class="webcamFrameBadgeIcon"
-            ><svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="12"
-              height="12"
-              viewBox="0 0 24 24"
+            <span
+              ><span id="ppValue">0</span
+              ><span style="color: #7db2e8">pp</span></span
             >
-              <path
-                fill="#5C98D6"
-                d="M11.64 5.93h1.43v4.28h-1.43m3.93-4.28H17v4.28h-1.43M7 2L3.43 5.57v12.86h4.28V22l3.58-3.57h2.85L20.57 12V2m-1.43 9.29l-2.85 2.85h-2.86l-2.5 2.5v-2.5H7.71V3.43h11.43Z"
-              /></svg
-          ></span>
-          zNyash</span
-        >
-        <span class="InfoCardList">
-          <div class="InfoCard"><img src="assets/IcBaselineMusicNote.svg"><span id="bid">b/1234567</span></div>
-          <div class="InfoCard"><img src="assets/MaterialSymbolsKidStar.svg"><span id="sr">10.99</span></div>
-          <div class="InfoCard"><img src="assets/MdiMetronome.svg"><span id="bpm">234</span></div>
-        </span>
-      </div>
+            <span class="ppIfFc"
+              ><span id="ppIfFc">0</span
+              ><span style="color: #7db2e8">pp</span></span
+            >
+          </div>
+          <div class="webcamFrameRightGlow"></div>
+          <img src="assets/Base Neon.svg" class="webcamFrameGlow" />
+          <img src="assets/Neon BottomLeft.png" class="webcamFrameArrow" />
+          <span class="webcamFrameBadge">
+            <span class="webcamFrameBadgeIcon"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="#5C98D6"
+                  d="M11.64 5.93h1.43v4.28h-1.43m3.93-4.28H17v4.28h-1.43M7 2L3.43 5.57v12.86h4.28V22l3.58-3.57h2.85L20.57 12V2m-1.43 9.29l-2.85 2.85h-2.86l-2.5 2.5v-2.5H7.71V3.43h11.43Z"
+                /></svg
+            ></span>
+            zNyash</span
+          >
+          <span class="InfoCardList">
+            <div class="InfoCard">
+              <img src="assets/IcBaselineMusicNote.svg" /><span style="gap: 0px"
+                >b/<span id="bid">1234567</span></span
+              >
+            </div>
+            <div class="InfoCard">
+              <img src="assets/MaterialSymbolsKidStar.svg" /><span id="sr"
+                >10.99</span
+              >
+            </div>
+            <div class="InfoCard">
+              <img src="assets/MdiMetronome.svg" /><span id="bpm">234</span>
+            </div>
+          </span>
+        </div>
+        <div class="progress">
+          <div id="progress"></div>
+        </div>
+      </span>
     </div>
 
     <!-- Inclua as bibliotecas e seu script -->
