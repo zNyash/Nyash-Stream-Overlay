@@ -1,0 +1,7 @@
+Usecase: obs-overlay
+Name: Nyash Stream Overlay
+Version: 0.1.0
+Author: Nyash
+CompatibleWith: tosu
+Resolution: 1280x720
+authorLinks: https://nyashlinks.xyz/
